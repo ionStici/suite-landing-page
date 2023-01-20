@@ -1,5 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+}
+
 body {
   font-family: "Epilogue", sans-serif;
+  background-color: #fbf9f7;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1142px;
+  padding: 24px 16px 56px 16px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .header {
+    max-width: 1190px;
+    padding: 40px 40px 80px 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header {
+    padding: 50px 40px 67px 40px;
+  }
+}
+
+.btn-outline {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.14px;
+  color: #172339;
+  width: 182px;
+  padding: 11px;
+  background-color: transparent;
+  border: 1px solid #172339;
+  border-radius: 6px;
+}
+@media only screen and (min-width: 768px) {
+  .btn-outline {
+    width: 219px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
