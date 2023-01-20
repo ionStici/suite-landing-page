@@ -10,12 +10,16 @@
     position: relative;
     margin: 0 auto;
 
+    margin-bottom: 237px;
+
     @media only screen and (min-width: 768px) {
         max-width: 690px;
         display: grid;
         grid-template-columns: 500px 189px;
         grid-template-rows: 482px 83px;
         row-gap: 88px;
+
+        margin-bottom: 273px;
     }
 
     @media only screen and (min-width: 1200px) {
@@ -23,6 +27,8 @@
         grid-template-columns: 635px 189px 286px;
         grid-template-rows: 600px;
         row-gap: revert;
+
+        margin-bottom: 199px;
     }
 
     &__curved-line {

@@ -78,6 +78,7 @@ body {
 .hero {
   position: relative;
   margin: 0 auto;
+  margin-bottom: 237px;
 }
 @media only screen and (min-width: 768px) {
   .hero {
@@ -86,6 +87,7 @@ body {
     grid-template-columns: 500px 189px;
     grid-template-rows: 482px 83px;
     row-gap: 88px;
+    margin-bottom: 273px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -94,6 +96,7 @@ body {
     grid-template-columns: 635px 189px 286px;
     grid-template-rows: 600px;
     row-gap: revert;
+    margin-bottom: 199px;
   }
 }
 .hero__curved-line {
@@ -277,6 +280,25 @@ body {
 
 .btn-filled:hover {
   background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+}
+
+.tess {
+  width: 100%;
+  height: 748px;
+  margin: 0 auto;
+  background: #172339;
+  border-radius: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .tess {
+    width: 690px;
+    height: 684px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .second-main {
+    padding: 0 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
