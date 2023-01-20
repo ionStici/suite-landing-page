@@ -19,32 +19,51 @@
 
     <main class="main">
 
-        <section>
-            
+        <section class="hero">
+
+            <img src="./assets/pattern-curved-line-1.svg" alt="">
+
+            <div class="hero__cta">
+                <h1 class="h1">A <span>super solution</span> for your <span>business.</span></h1>
+                <p class="p">Our marketing and sales automations help you scale your outreach to get more leads for your company. </p>
+                <button class="btn-filled">Request Beta Access</button>
+            </div>
+
+            <div class="hero__img-wrapper">
+                <picture>
+                    <source srcset="./assets/image-hero-landscape.webp 1x, ./assets/image-hero-landscape@2x.webp 2x" media="(max-width: 767px)">
+                    <source srcset="./assets/image-hero-landscape.png 1x, ./assets/image-hero-landscape@2x.png 2x" media="(max-width: 767px)">
+
+                    <source srcset="./assets/image-hero-portrait.webp 1x, ./assets/image-hero-portrait@2x.webp 2x" media="(min-width: 768px)">
+                    <source srcset="/assets/image-hero-portrait.png 1x, ./assets/image-hero-portrait@2x.png 2x" media="(min-width: 768px)">
+
+                    <img class="hero__img" src="/assets/image-hero-landscape.png" alt="An iPhone">
+                </picture>
+            </div>
+
+            <div class="hero__stats">
+                <div class="hero__stats__box">
+                    <p class="hero__stats__t">2K+</p>
+                    <p class="hero__stats__p">Companies</p>
+                </div>
+
+                <div class="hero__stats__box">
+                    <p class="hero__stats__t">8</p>
+                    <p class="hero__stats__p">Languages</p>
+                </div>
+
+                <div class="hero__stats__box">
+                    <p class="hero__stats__t">1.2M</p>
+                    <p class="hero__stats__p">Leads</p>
+                </div>
+            </div>
+
         </section>
 
     </main>
     
-    <!-- <button class="btn-filled">Request Beta Access</button> -->
 
   <!-- 
-
-  A super solution for your business.
-
-  Our marketing and sales automations help you scale your outreach to 
-  get more leads for your company. 
-
-  Request Beta Access
-
-  2K+
-  Companies
-
-  8
-  Languages
-
-  1.2M
-  Leads
-
   It just works.
 
   “I really like how it is an all-in-one solution that handle many of 
@@ -54,7 +73,8 @@
   Jeremy Robinson
   CMO, Fylo
 
-  Copyright - Suite -->
+  Copyright - Suite 
+  -->
 
 </body>
 </html>
