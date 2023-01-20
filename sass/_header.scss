@@ -29,6 +29,9 @@
     border: 1px solid #172339;
     border-radius: 6px;
 
+    cursor: pointer;
+    transition: background-color 0.2s;
+
     @media only screen and (min-width: 768px) {
         width: 219px;
 
@@ -36,4 +39,9 @@
         line-height: 32px;
         letter-spacing: -0.16px;
     }
+}
+
+.btn-outline:hover {
+    color: #faf8f6;
+    background-color: #172339;
 }

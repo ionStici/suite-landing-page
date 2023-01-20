@@ -194,7 +194,19 @@
     border-radius: 6px;
     margin-bottom: 55.7px;
 
+    cursor: pointer;
+    transition: background 0.2s;
+
     @media only screen and (min-width: 768px) {
         margin-bottom: 0;
     }
+}
+
+.btn-filled:hover {
+    background: linear-gradient(
+        135deg,
+        #a060ff 0%,
+        #cb30e3 49.21%,
+        #ffa84e 100%
+    );
 }
