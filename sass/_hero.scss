@@ -18,6 +18,13 @@
         row-gap: 88px;
     }
 
+    @media only screen and (min-width: 1200px) {
+        max-width: 1110px;
+        grid-template-columns: 635px 189px 286px;
+        grid-template-rows: 600px;
+        row-gap: revert;
+    }
+
     &__curved-line {
         width: 151px;
         position: absolute;
@@ -25,7 +32,14 @@
         left: 154px;
 
         @media only screen and (min-width: 768px) {
-            display: none;
+            width: 231px;
+            top: 45px;
+            left: 220px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            width: revert;
+            left: 290px;
         }
     }
 
@@ -33,6 +47,10 @@
         @media only screen and (min-width: 768px) {
             grid-column: 1 / 2;
             margin-top: 88px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            margin-top: 103px;
         }
     }
 
@@ -60,6 +78,12 @@
             right: 0;
             z-index: -1;
         }
+
+        @media only screen and (min-width: 1200px) {
+            width: revert;
+            height: revert;
+            grid-column: 2 / 3;
+        }
     }
 
     &__stats {
@@ -72,6 +96,15 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+            flex-direction: column;
+            align-items: revert;
+            margin-left: 96px;
+            text-align: left;
         }
 
         &__box:not(:last-child) {
@@ -115,6 +148,12 @@
         margin-bottom: 40px;
     }
 
+    @media only screen and (min-width: 1200px) {
+        font-size: 72px;
+        line-height: 78px;
+        letter-spacing: -1px;
+    }
+
     span {
         font-weight: 700;
     }
@@ -131,6 +170,13 @@
     @media only screen and (min-width: 768px) {
         width: 350px;
         margin-bottom: 40px;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        margin-bottom: 52px;
     }
 }
 
