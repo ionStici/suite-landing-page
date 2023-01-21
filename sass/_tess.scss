@@ -39,9 +39,6 @@
         }
     }
 
-    &__img {
-    }
-
     &__curved-line {
         position: absolute;
         top: 261px;
@@ -67,16 +64,11 @@
     }
 
     &__h2 {
-        font-weight: 400;
         font-size: 40px;
         line-height: 48px;
         letter-spacing: -0.416667px;
         color: #faf8f6;
         margin-bottom: 40px;
-
-        span {
-            font-weight: 700;
-        }
 
         @media only screen and (min-width: 1200px) {
             font-size: 48px;
@@ -86,7 +78,6 @@
     }
 
     &__p {
-        font-weight: 400;
         font-size: 18px;
         line-height: 32px;
         letter-spacing: 0.09px;
@@ -109,34 +100,23 @@
 
     &__name {
         text-transform: uppercase;
-        font-weight: 700;
         font-size: 18px;
         line-height: 32px;
         letter-spacing: -0.18px;
         color: #faf8f6;
-
-        @media only screen and (min-width: 1200px) {
-        }
     }
 
     &__p2 {
         text-transform: uppercase;
-        font-weight: 400;
         font-size: 16px;
         line-height: 26px;
         letter-spacing: 2.5px;
         color: #f3ede7;
-
-        @media only screen and (min-width: 1200px) {
-        }
     }
 }
 
 .second-main {
     @media only screen and (min-width: 768px) {
         padding: 0 40px;
-    }
-
-    @media only screen and (min-width: 1200px) {
     }
 }

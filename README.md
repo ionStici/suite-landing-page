@@ -5,9 +5,9 @@ This is a solution to the [Suite landing page challenge on Frontend Mentor](http
 | **Links** | [Solution URL](https://github.com/ionStici/suite-landing-page) | [Live Site URL](https://ionstici.github.io/suite-landing-page) |
 | --------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
 
-| **Author** | [GitHub](https://github.com/ionStici) | [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici) | [Twitter](https://twitter.com/ionStici_) |
-| ---------- | ------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------- |
+| **Author** | [GitHub](https://github.com/ionStici) | [FE Mentor](https://www.frontendmentor.io/profile/ionStici) | [Twitter](https://twitter.com/ionStici_) |
+| ---------- | ------------------------------------- | ----------------------------------------------------------- | ---------------------------------------- |
 
 <br>
 
-![](./images/screenshot.png)
+![](./assets/screenshot.png)

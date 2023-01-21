@@ -15,7 +15,16 @@ button {
 
 body {
   font-family: "Epilogue", sans-serif;
+  font-weight: 400;
   background-color: #fbf9f7;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-700 {
+  font-weight: 700;
 }
 
 .header {
@@ -39,7 +48,6 @@ body {
 }
 
 .btn-outline {
-  font-weight: 700;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: -0.14px;
@@ -199,14 +207,12 @@ body {
   }
 }
 .hero__stats__t {
-  font-weight: 700;
   font-size: 48px;
   line-height: 56px;
   color: #172339;
   margin-bottom: 1px;
 }
 .hero__stats__p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 2.5px;
@@ -214,7 +220,6 @@ body {
 }
 
 .h1 {
-  font-weight: 400;
   font-size: 38px;
   line-height: 44px;
   letter-spacing: -0.527778px;
@@ -241,7 +246,6 @@ body {
 }
 
 .p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.0888889px;
@@ -264,7 +268,6 @@ body {
 }
 
 .btn-filled {
-  font-weight: 700;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: -0.18px;
@@ -354,15 +357,11 @@ body {
   }
 }
 .tess__h2 {
-  font-weight: 400;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: -0.416667px;
   color: #faf8f6;
   margin-bottom: 40px;
-}
-.tess__h2 span {
-  font-weight: 700;
 }
 @media only screen and (min-width: 1200px) {
   .tess__h2 {
@@ -372,7 +371,6 @@ body {
   }
 }
 .tess__p {
-  font-weight: 400;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 0.09px;
@@ -395,7 +393,6 @@ body {
 }
 .tess__name {
   text-transform: uppercase;
-  font-weight: 700;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: -0.18px;
@@ -403,17 +400,18 @@ body {
 }
 .tess__p2 {
   text-transform: uppercase;
-  font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 2.5px;
   color: #f3ede7;
 }
+
 @media only screen and (min-width: 768px) {
   .second-main {
     padding: 0 40px;
   }
 }
+
 .footer {
   background-color: #f3ede7;
   padding: 56px 0 80px 0;
@@ -460,7 +458,6 @@ body {
   }
 }
 .footer__copyright {
-  font-weight: 400;
   font-size: 15px;
   line-height: 32px;
   letter-spacing: 0.0833333px;
