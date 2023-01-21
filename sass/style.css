@@ -118,8 +118,14 @@ body {
     left: 290px;
   }
 }
+.hero__cta {
+  max-width: 500px;
+  margin: 0 auto;
+}
 @media only screen and (min-width: 768px) {
   .hero__cta {
+    max-width: revert;
+    margin: revert;
     grid-column: 1/2;
     margin-top: 88px;
   }
@@ -283,27 +289,29 @@ body {
 }
 
 .tess {
-  width: 100%;
+  max-width: 500px;
   height: 748px;
   margin: 0 auto;
   background: #172339;
   border-radius: 15px;
+  position: relative;
 }
 @media only screen and (min-width: 768px) {
   .tess {
-    width: 690px;
+    max-width: 690px;
     height: 684px;
-    position: relative;
     z-index: 2;
   }
 }
 @media only screen and (min-width: 1200px) {
   .tess {
-    width: 1110px;
+    max-width: 1110px;
     height: 545px;
   }
 }
-
+.tess__curved-line {
+  position: absolute;
+}
 @media only screen and (min-width: 768px) {
   .second-main {
     padding: 0 40px;

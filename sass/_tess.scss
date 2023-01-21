@@ -1,21 +1,46 @@
 .tess {
-    width: 100%;
+    max-width: 500px;
     height: 748px;
     margin: 0 auto;
     background: #172339;
     border-radius: 15px;
+    position: relative;
 
     @media only screen and (min-width: 768px) {
-        width: 690px;
+        max-width: 690px;
         height: 684px;
 
-        position: relative;
         z-index: 2;
     }
 
     @media only screen and (min-width: 1200px) {
-        width: 1110px;
+        max-width: 1110px;
         height: 545px;
+    }
+
+    &__img-wrapper {
+    }
+
+    &__img {
+    }
+
+    &__curved-line {
+        position: absolute;
+    }
+
+    &__content {
+    }
+
+    &__h2 {
+    }
+
+    &__p {
+    }
+
+    &__name {
+    }
+
+    &__p2 {
     }
 }
 

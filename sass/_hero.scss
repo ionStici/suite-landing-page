@@ -50,7 +50,13 @@
     }
 
     &__cta {
+        max-width: 500px;
+        margin: 0 auto;
+
         @media only screen and (min-width: 768px) {
+            max-width: revert;
+            margin: revert;
+
             grid-column: 1 / 2;
             margin-top: 88px;
         }

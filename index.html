@@ -64,8 +64,26 @@
     <main class="second-main">
         <section class="tess">
 
+            <div class="tess__img-wrapper">
+                <picture>
+                    <source srcset="./assets/image-jeremy-small.png 1x, ./assets/image-jeremy-small@2x.png 2x" media="(max-width: 767px)">
+                    <source srcset="./assets/image-jeremy-small.webp 1x, ./assets/image-jeremy-small@2x.webp 2x" media="(max-width: 767px)">
 
+                    <source srcset="./assets/image-jeremy-large.png 1x, ./assets/image-jeremy-large@2x.png 2x" media="(min-width: 768px)">
+                    <source srcset="./assets/image-jeremy-large.webp 1x, ./assets/image-jeremy-small@2x.webp 2x" media="(min-width: 768px)">
 
+                    <img class="tess__img" src="./assets/image-jeremy-large.png" alt="a person noting something on an iphone">
+                </picture>
+            </div>
+
+            <img class="tess__curved-line" src="./assets/pattern-curved-line-2.svg" alt="">
+
+            <div class="tess__content">
+                <h2 class="tess__h2">It just works.</h2>
+                <p class="tess__p">“I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate tools to do the same job. This thing is a miracle worker.”</p>
+                <p class="tess__name">Jeremy Robinson</p>
+                <p class="tess__p2">CMO, Fylo</p>
+            </div>
             
         </section>
     </main>
@@ -87,17 +105,6 @@
         </div>
 
     </footer>
-
-  <!-- 
-  It just works.
-
-  “I really like how it is an all-in-one solution that handle many of 
-  the tasks that you would normally need separate tools to do the same 
-  job. This thing is a miracle worker.”
-
-  Jeremy Robinson
-  CMO, Fylo
-  -->
 
 </body>
 </html>
