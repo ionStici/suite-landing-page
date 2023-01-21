@@ -307,10 +307,107 @@ body {
   .tess {
     max-width: 1110px;
     height: 545px;
+    padding-left: 121.5px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 360px 350px;
+    column-gap: 152.7px;
+  }
+}
+.tess__img-wrapper {
+  position: absolute;
+  top: -175px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media only screen and (min-width: 1200px) {
+  .tess__img-wrapper {
+    grid-column: 1/2;
+    transform: revert;
+    bottom: -4px;
+    top: revert;
+    left: revert;
   }
 }
 .tess__curved-line {
   position: absolute;
+  top: 261px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+}
+@media only screen and (min-width: 1200px) {
+  .tess__curved-line {
+    top: 161.15px;
+    width: revert;
+  }
+}
+.tess__content {
+  padding-top: 338px;
+  text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  .tess__content {
+    padding-top: revert;
+    text-align: left;
+    grid-column: 2/3;
+  }
+}
+.tess__h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.416667px;
+  color: #faf8f6;
+  margin-bottom: 40px;
+}
+.tess__h2 span {
+  font-weight: 700;
+}
+@media only screen and (min-width: 1200px) {
+  .tess__h2 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+  }
+}
+.tess__p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.09px;
+  color: #f3ede7;
+  max-width: 343px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .tess__p {
+    max-width: 573px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .tess__p {
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+  }
+}
+.tess__name {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  color: #faf8f6;
+}
+.tess__p2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  color: #f3ede7;
 }
 @media only screen and (min-width: 768px) {
   .second-main {
