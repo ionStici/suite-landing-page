@@ -8,9 +8,14 @@
     @media only screen and (min-width: 768px) {
         width: 690px;
         height: 684px;
+
+        position: relative;
+        z-index: 2;
     }
 
     @media only screen and (min-width: 1200px) {
+        width: 1110px;
+        height: 545px;
     }
 }
 
